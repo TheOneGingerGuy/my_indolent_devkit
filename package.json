@@ -11,7 +11,7 @@
   "description": "Reusable nodejs, mongodb, bcrypt, and other types of modules for future use in projects",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/TheOneGingerGuy/Indolent_Library#readme",
   "devDependencies": {
+    "jest": "^30.5.2",
     "morgan": "^1.12.1",
     "nodemon": "^3.1.14"
   }
